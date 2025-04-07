@@ -1,0 +1,6 @@
+git+https://github.com/openai/whisper.git
+google-generativeai
+pandas
+numpy
+scikit-learn
+matplotlib
