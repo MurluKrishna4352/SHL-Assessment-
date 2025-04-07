@@ -54,7 +54,7 @@ sudo apt update && sudo apt install ffmpeg -y
 
 ### 4. Usage
 
-```markdown
+
 ## Usage
 
 1. **Configure File Paths:**  
@@ -64,12 +64,12 @@ sudo apt update && sudo apt install ffmpeg -y
 2. **API Key Configuration:**  
    Replace `YOUR_GEMINI_API_KEY` in the code with your actual Gemini API key.
 
-3. **Run the Pipeline:**  
+3. **Run the Pipeline:**
    Execute the notebook (or script) step by step. The pipeline will:
    - Transcribe the audio files using Whisper.
    - Score the transcripts using the Gemini API.
    - Save the output to `/kaggle/working/scored_transcripts.csv`, which contains the filenames, transcripts, and grammar scores.
-```
+     
 
 ## Results
 
